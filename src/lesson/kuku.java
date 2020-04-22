@@ -3,19 +3,19 @@ package lesson;
 public class kuku {
 
 	public static void main(String[] args) {
-		int a =new java.util.Random().nextInt(9)+1;
-		int b =new java.util.Random().nextInt(9)+1;
-
+		int x =new java.util.Random().nextInt(9)+1;
+		int y =new java.util.Random().nextInt(9)+1;
+		int coAnswer = x*y;
 		System.out.println("回答を入力してください");
-		System.out.println(a + "*" + b + "=");
+		System.out.println(x + "*" + y + "=");
 		
 
 
-		int num = new java.util.Scanner(System.in).nextInt();
-		if (num==a*b) {
+		int answer = new java.util.Scanner(System.in).nextInt();
+		if (answer==x*y) {
 			System.out.println("正解です");
 		} else {
-			System.out.println("不正解です");
+			System.out.println("不正解です回答は"+ coAnswer);
 		}
 	}
 
