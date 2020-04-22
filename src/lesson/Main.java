@@ -12,7 +12,7 @@ public class Main {
 		hi = 22;
 		System.out.println(tuki + "月");
 		System.out.println(hi + "日");
-		System.out.println("今日は" + tuki + "月" + hi + "日だったような");
+		System.out.println("今日は" + tuki + "月" + hi + "日だったような気がします");
 
 		double p;
 		p =3.14;
