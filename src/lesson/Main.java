@@ -48,6 +48,11 @@ public class Main {
 		int sanasu =75;
 		System.out.println((double)(kokugo + sanasu)/2 );
 		
+		int num1=3;
+		int num2=5;
+		System.out.println("足し算の結果は" + (num1+num2) );
+	
+		
 		
 
 
