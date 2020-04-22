@@ -7,10 +7,8 @@ public class kuku {
 		int b =new java.util.Random().nextInt(9)+1;
 
 		System.out.println("回答を入力してください");
-		System.out.print(a);
-		System.out.print("*");
-		System.out.print(b);
-		System.out.println("=");
+		System.out.println(a + "*" + b + "=");
+		
 
 
 		int num = new java.util.Scanner(System.in).nextInt();
