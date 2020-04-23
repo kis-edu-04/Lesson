@@ -3,27 +3,27 @@ package lesson;
 public class Hairetu2 {
 
 	public static void main(String[] args) {
-		int [] data= {5,8,7,9,6};
-		for(int d : data) {
-			System.out.println(d);
-		}
-		
-		
-		int[] prices = {100,200,150};
-
-		for(int i=0; i<3 ; i++) {
-			int value = prices[i];
-			System.out.println(prices[i]);
-		}	
-
-		for (int value : prices ) {
-			System.out.println(value);
-		}
+//		int [] data= {5,8,7,9,6};
+//		for(int d : data) {
+//			System.out.println(d);
+//		}
+//		
+//		
+//		int[] prices = {100,200,150};
+//
+//		for(int i=0; i<3 ; i++) {
+//			int value = prices[i];
+//			System.out.println(prices[i]);
+//		}	
+//
+//		for (int value : prices ) {
+//			System.out.println(value);
+//		}
 
 		String[] names = {"コーラ","コーヒー","水"};
 
 		for(String n :names) {
-			System.out.println(n);
+			System.out.println(n + "は"+ n.length() +"文字");
 		}
 		
 		
