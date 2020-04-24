@@ -5,7 +5,8 @@ public class FixxBuzz {
 	public static void main(String[] args) {
 
 		for (int i = 1; i <= 30; i++) {
-			showFizzBuzz(i);
+			String g = getFizzBuzz(i);
+			System.out.println(g);
 
 			//			if(i%15==0) {
 			//				System.out.println("FizzBuzz");
@@ -17,15 +18,17 @@ public class FixxBuzz {
 		}
 	}
 
-	public static void showFizzBuzz(int num) {
+	public static String getFizzBuzz(int num) {
 
 		if (num % 15 == 0) {
-			System.out.println("FizzBuzz");
+			return 	"FizzBuzz";		//System.out.println("FizzBuzz");
 		} else if (num % 3 == 0) {
-			System.out.println("Fizz");
+			return 	"Fizz";				//System.out.println("Fizz");
 		} else if (num % 5 == 0) {
-			System.out.println("Buzz");
+			return 	"Buzz";					//System.out.println("Buzz");
 		} else
-			System.out.println(num);
+			return num+"";
 	}
+	
+	
 }
