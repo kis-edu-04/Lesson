@@ -1,8 +1,23 @@
 package lesson;
 
 public class Hairetu2 {
-
+		
+	public static void showKion(double kion) {
+		System.out.println(kion +"度");
+	}
+	
+	
+	
 	public static void main(String[] args) {
+		double [] temp = {15.5,20.1,18.3};
+			for(double t : temp) {
+				showKion(t);
+			}
+		
+
+		
+		
+		
 //		int [] data= {5,8,7,9,6};
 //		for(int d : data) {
 //			System.out.println(d);
