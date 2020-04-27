@@ -22,6 +22,8 @@ public class Kujimain {
 		k2.show();
 		k3.show();
 		
+		System.out.println(c.kingaku);
+		
 	}
 	
 
