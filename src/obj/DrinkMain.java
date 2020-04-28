@@ -11,9 +11,12 @@ public class DrinkMain {
 		dlist.add(new Drink("サイダー",600));
 		dlist.add(new Drink("緑茶",300));
 		
+		int sum = 0;
 		for(Drink d: dlist) {
 			d.show();
+			sum += d.amount;
 		}
+		System.out.println("合計 "+sum);
 	}
 
 }
