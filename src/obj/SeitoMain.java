@@ -21,6 +21,15 @@ public class SeitoMain {
 	double n2=s1.heikin();
 	System.out.println(n2);
 	
+	Teacher t=new Teacher("平坂");
+	t.show();
+	
+	Teacher t2=new Teacher("本田",5,4);
+//	t2.name="ごとう";
+//	t2.nen=9;
+//	t2.kumi=2;
+	
+	t2.show();
 	
 	
 	

@@ -6,21 +6,21 @@ public class Main {
 
 	public static void main(String[] args) {
 		Sankaku m = new Sankaku();
-		m.takasa =6;
-		m.teihen =9;
+//		m.takasa =6;
+//		m.teihen =9;
 		
 		m.menseki();
 		
-		Shohin s = new Shohin ();
-		s.name= "りんご";
-		s.price =100;
+		Shohin s = new Shohin ("りんご",100);
+//		s.name= "りんご";
+//		s.price =100;
 //		
-//		s.show();	
-//		s.showTax();
+		s.show();	
+		s.showTax();
 		
-		Shohin s2 = new Shohin();
-		s2.name = "みかん";
-		s2.price = 150;
+		Shohin s2 = new Shohin("みかん",150);
+//		s2.name = "みかん";
+//		s2.price = 150;
 		
 		
 //		Uriage u = new Uriage();

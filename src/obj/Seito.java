@@ -19,7 +19,7 @@ public class Seito {
 	}
 
 	public double heikin() {
-		return (kokugo+sansu+syakai)/3.0;
+		return this.goukei()/3.0;
 
 
 
