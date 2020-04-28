@@ -17,7 +17,7 @@ public class KukuMondai {
 		if(num1*num2==kotae) {
 			System.out.println("正解！！");
 		}else {
-			System.out.println("不正解…");
+			System.out.println("不正解…正解は"+num1*num2);
 		}
 	}
 }
