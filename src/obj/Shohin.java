@@ -3,10 +3,12 @@ package obj;
 public class Shohin {
 	String name;
 	int price;
+	
 
-	public Shohin(String name, int price) {
+	public Shohin(String name, int price ) {
 		this.name = name;
 		this.price = price;
+		
 	}
 
 	public void showTax() {

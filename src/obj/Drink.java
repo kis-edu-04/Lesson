@@ -11,7 +11,7 @@ public class Drink {
 	}
 	
 	public void show() {
-		System.out.println(this.name +" "+amount+"ml");
+		System.out.println(this.name +" "+this.amount+"ml");
 	}
 	
 

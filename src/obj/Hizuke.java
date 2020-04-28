@@ -1,8 +1,13 @@
 package obj;
 
-public class Hizuke {
+public  class Hizuke {
 	int tuki;
 	int hi;
+	
+	public Hizuke(int tuki, int hi) {
+		this.tuki=tuki;
+		this.hi=hi;
+	}
 	
 	
 	public void show() {

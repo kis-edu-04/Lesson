@@ -28,6 +28,12 @@ public class Main {
 //		u.shohin= s;
 //		u.show();
 		
+		
+		Book b=new Book("魚図鑑",5000,"さかな博士");
+		b.show();
+		
+		
+		
 		Uriage u2 = new Uriage();
 		u2.kosu = 3;
 		u2.shohin = s2;
@@ -53,16 +59,26 @@ public class Main {
 		d.change();
 		
 		
-		Hizuke h1=new Hizuke();
-		h1.tuki =4;
-		h1.hi=27;
-		h1.show();
+//		Hizuke h1=new Hizuke();
+//		h1.tuki =4;
+//		h1.hi=27;
+//		h1.show();
+//		
+//		Hizuke h2=new Hizuke();
+//		h2.tuki =5;
+//		h2.hi=7;
+//		h2.show();
+//		
+//		Nitiji n = new Nitiji();
+//		n.tuki=5;
+//		n.hi=28;
+//		n.ji=3;
+//		n.hun=26;
 		
-		Hizuke h2=new Hizuke();
-		h2.tuki =5;
-		h2.hi=7;
-		h2.show();
+		Nitiji n = new Nitiji(4,28,15,6);
 		
+//		n.Jikan();
+		n.show();
 		
 		
 	}
