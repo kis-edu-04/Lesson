@@ -5,6 +5,14 @@ public class Seito {
 	int kokugo;
 	int sansu;
 	int syakai;
+	
+	public Seito (String n,int koku,int san,int sya) {
+		this.name=n;
+		this.kokugo=koku;
+		this.sansu= san;
+		this.syakai=sya;
+		
+	}
 
 
 	public void show() {
