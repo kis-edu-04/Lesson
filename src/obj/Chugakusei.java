@@ -8,9 +8,11 @@ public class Chugakusei extends Seito {
 		this.eigo=eigo;
 		
 	}
+	public int goukei() {
+		return super.goukei()+this.eigo;
 	
 	
-	
+	}
 
 
 }
