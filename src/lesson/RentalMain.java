@@ -8,7 +8,7 @@ public class RentalMain {
 		ArrayList<Item> list=new ArrayList<Item>();
 		list.add(new Book("ジョジョの奇妙な冒険",1));
 		list.add(new CD("米津",1));
-		list.add(new CD("green apple",1));
+		list.add(new CD("green apple",3));
 		
 		int sum=0;
 		for(Item i:list) {
