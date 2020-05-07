@@ -9,9 +9,9 @@ public class CD extends Item {
 
 	public int getPrice() {
 		if (this.days <= 1) {
-			return this.days * 300;
+			return 300;
 		} else {
-			return this.days * 100;
+			return 300+(this.days-1)*100;
 		}
 	}
 
