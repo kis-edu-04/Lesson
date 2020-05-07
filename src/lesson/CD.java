@@ -8,10 +8,10 @@ public class CD extends Item {
 	}
 
 	public int getPrice() {
-		if (this.days == 1) {
-			return this.days * 100;
-		} else {
+		if (this.days <= 1) {
 			return this.days * 200;
+		} else {
+			return this.days * 100;
 		}
 	}
 
