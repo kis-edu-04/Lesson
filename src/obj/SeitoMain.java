@@ -1,11 +1,12 @@
 
 package obj;
 
-import java.util.ArrayList;
-
 public class SeitoMain {
 
 	public static void main(String[] args) {
+		Seito s =new Chugakusei("田中",60,50,60,80);
+		System.out.println(s.goukei());
+		
 
 //	Seito s1=new Seito();
 //	s1.name="山川";
@@ -31,19 +32,19 @@ public class SeitoMain {
 //
 //	t2.show();
 
-	ArrayList<Chugakusei> clist=new ArrayList<Chugakusei>();
-		clist.add(new Chugakusei("田中",56,30,80,68));
-		clist.add(new Chugakusei("山田",82,56,70,51));
-		clist.add(new Chugakusei("田中",69,72,38,90));
-		
-		int sum =0;
-		
-		for (Chugakusei c :clist) {
-			sum +=c.goukei();
-		}
-		
-		System.out.println("合計点は"+sum+"点です。");
-		
+//	ArrayList<Chugakusei> clist=new ArrayList<Chugakusei>();
+//		clist.add(new Chugakusei("田中",56,30,80,68));
+//		clist.add(new Chugakusei("山田",82,56,70,51));
+//		clist.add(new Chugakusei("田中",69,72,38,90));
+//		
+//		int sum =0;
+//		
+//		for (Chugakusei c :clist) {
+//			sum +=c.goukei();
+//		}
+//		
+//		System.out.println("合計点は"+sum+"点です。");
+//		
 
 
 

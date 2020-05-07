@@ -1,9 +1,7 @@
 package Keisho;
 
-public class Hero {
+public class Hero extends Character{
 	
-	String name="ミナト";
-	int hp =100;
 	
 	public  Hero () {
 		
@@ -20,9 +18,21 @@ public class Hero {
 		System.out.println("5のダメージ！");
 		System.out.println("残りHP"+m.hp);
 	}
-	public void run() {
-		System.out.println(this.name + "は逃げ出した！");
-		
-		
+	public String toString() {
+		return "名前"+this.name+"HP"+this.hp;
 	}
+	
+	public boolean equals(Object o) {
+		if(this==o) {
+			return true;
+		}
+		if(o instanceof Hero) {
+			Hero h=(Hero)o;
+			if (this.name .equals(h.name)) {
+				return true;
+			}
+		}
+		return false;
+	}
+		
 }

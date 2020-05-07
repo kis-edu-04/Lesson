@@ -1,6 +1,6 @@
 package obj;
 
-public class Shohin {
+public class Shohin  {
 	String name;
 	int price;
 	

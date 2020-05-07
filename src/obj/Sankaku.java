@@ -1,6 +1,11 @@
 package obj;
 
-public class Sankaku {
+public class Sankaku implements Zukei{
+	@Override
+	public String toString() {
+		return "底辺が"+teihen+"高さが"+takasa;
+	}
+
 	int teihen;
 	int takasa;
 

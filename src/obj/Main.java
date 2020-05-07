@@ -22,11 +22,15 @@ public class Main {
 //		s2.name = "みかん";
 //		s2.price = 150;
 		
+		Book b2=new Book("それから",500,"夏目漱石");
 		
-//		Uriage u = new Uriage();
-//		u.kosu=7;
-//		u.shohin= s;
-//		u.show();
+		
+		
+		Uriage u = new Uriage();
+		u.kosu=7;
+		u.shohin= b2;
+		u.show();
+		u.showUriage();
 		
 		
 		Book b=new Book("魚図鑑",5000,"さかな博士");
@@ -40,12 +44,12 @@ public class Main {
 		u2.show();
 		u2.showUriage();		
 		
-		En e = new En();
-		e.r=10;
-		
-		System.out.println("半径"+e.r+"の");
-		e.menseki();
-		e.enshu();
+//		En e = new En();
+//		e.r=10;
+//		
+//		System.out.println("半径"+e.r+"の");
+//		e.menseki();
+//		e.enshu();
 		
 		DenssiMoney d = new DenssiMoney();
 		

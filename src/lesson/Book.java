@@ -1,0 +1,13 @@
+package lesson;
+
+public class Book extends Item {
+	
+	public Book(String name,int days) {
+		super(name,days);
+	}
+	
+	public int getPrice() {
+		return this.days*50;
+	}
+
+}
