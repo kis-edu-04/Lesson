@@ -54,8 +54,8 @@ public class Main {
 		DenssiMoney d = new DenssiMoney();
 		
 		
-		d.kingaku =0;
-		d.point=0;
+//		d.kingaku =0;
+//		d.point=0;
 		
 		d.charge(600);
 		d.buy(500);

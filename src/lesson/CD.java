@@ -8,8 +8,8 @@ public class CD extends Item {
 	}
 
 	public int getPrice() {
-			return 300+(this.days-1)*100;
-		
+			return 300+(this.getDays()-1)*100;
+
 	}
 
 }

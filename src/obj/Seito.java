@@ -1,17 +1,17 @@
 package obj;
 
 public class Seito {
-	String name;
-	int kokugo;
-	int sansu;
-	int syakai;
-	
+	private String name;
+	private int kokugo;
+	private int sansu;
+	private int syakai;
+
 	public Seito (String n,int koku,int san,int sya) {
 		this.name=n;
 		this.kokugo=koku;
 		this.sansu= san;
 		this.syakai=sya;
-		
+
 	}
 
 

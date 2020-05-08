@@ -10,13 +10,17 @@ public class DrinkMain {
 		dlist.add(new Drink("コーラ",500));
 		dlist.add(new Drink("サイダー",600));
 		dlist.add(new Drink("緑茶",300));
-		
+		dlist.add(new Sake("ビール",500,6));
 		int sum = 0;
 		for(Drink d: dlist) {
 			d.show();
-			sum += d.amount;
+			sum += d.getAmount();
 		}
 		System.out.println("合計 "+sum);
+		
+//		Sake s=new Sake("ビール",500,6);
+//		s.show();
+		
 	}
 
 }

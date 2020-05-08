@@ -3,6 +3,7 @@ package obj;
 public class Shohin  {
 	String name;
 	int price;
+	public static final double tax=0.1;
 	
 
 	public Shohin(String name, int price ) {

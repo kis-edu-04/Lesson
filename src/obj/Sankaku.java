@@ -6,8 +6,22 @@ public class Sankaku implements Zukei{
 		return "底辺が"+teihen+"高さが"+takasa;
 	}
 
-	int teihen;
-	int takasa;
+	private int teihen;
+	private int takasa;
+	
+	public int getTeihen() {
+		return this.teihen;
+	}
+	public int getTakasa() {
+		return this.takasa;
+	}
+	
+	public void setTeihen(int teihen) {
+		this.teihen=teihen;
+	}
+	public void setTakasa(int takasa) {
+		this.takasa=takasa;
+	}
 
 	//	public Sankaku(int takasa, int teihen) {
 	//		this.teihen=teihen;

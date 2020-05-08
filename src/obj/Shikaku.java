@@ -1,9 +1,25 @@
 package obj;
 
 public class Shikaku implements Zukei{
-	int haba;
-	int takasa;
+	private int haba;
+	private int takasa;
 	
+	public int getHaba() {
+		return haba;
+	}
+
+	public void setHaba(int haba) {
+		this.haba = haba;
+	}
+
+	public int getTakasa() {
+		return takasa;
+	}
+
+	public void setTakasa(int takasa) {
+		this.takasa = takasa;
+	}
+
 	public Shikaku(int haba, int takasa) {
 		this.haba = haba;
 		this.takasa = takasa;

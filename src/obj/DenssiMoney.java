@@ -1,8 +1,16 @@
 package obj;
 
 public class DenssiMoney {
-	int kingaku;
-	int point;
+	private int kingaku;
+	private int point;
+
+	public int getKingaku() {
+		return kingaku;
+	}
+
+	public int getPoint() {
+		return point;
+	}
 
 	public void charge(int m) {
 		kingaku += m;

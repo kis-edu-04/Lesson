@@ -1,7 +1,7 @@
 package obj;
 
 public class Chugakusei extends Seito {
-	int eigo;
+	private int eigo;
 	
 	public  Chugakusei (String n,int koku,int san,int sya,int eigo) {
 		super(n,koku,san,sya);

@@ -1,13 +1,27 @@
 package lesson;
 
 public abstract class Item {
-	String name;
-	int days;
-	
+	private String name;
+	private int days;
+
 	public Item(String name,int days) {
 		this.name=name;
 		this.days=days;
 	}
+
+
+
+	public String getName() {
+		return name;
+	}
+
+
+
+	public int getDays() {
+		return days;
+	}
+
+
 
 	public abstract int getPrice() ;
 
