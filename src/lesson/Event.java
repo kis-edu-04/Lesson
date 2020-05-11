@@ -8,7 +8,7 @@ public class Event {
 	private String name;
 	private Date hi;
 
-	ArrayList<Sankasya> slist = new ArrayList<Sankasya>();
+	ArrayList<Sankasya> slist = new ArrayList<>();
 
 	public Event(String name) {
 		this.name = name;
