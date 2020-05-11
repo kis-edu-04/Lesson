@@ -85,4 +85,34 @@ public class UriageDAO {
 		}
 
 	}
+	
+	
+	public  ArrayList<Uriage> findBySid(int sid) {
+		ArrayList<Uriage> list = new ArrayList<Uriage>();
+		try (Connection con = DriverManager.getConnection(URL, USER, PASS);) {
+
+			String sql = "SELECT * FROM uriage where sid=?";
+			PreparedStatement stmt = con.prepareStatement(sql);
+			stmt.setInt(1,sid);
+
+			ResultSet rs =stmt.executeQuery();
+			
+			while (rs.next()) {
+				int uid = rs.getInt("uid");
+				
+				int kosu = rs.getInt("kosu");
+				Date hi = rs.getDate("hi");
+				
+			
+				Uriage u =new Uriage(uid,sid,kosu,hi);
+				list.add(u);
+			}
+			stmt.close();
+
+		} catch (SQLException e) {
+			System.out.println("findAllエラー" + e.getMessage());
+		}
+		return list;
+	}
+	
 }
