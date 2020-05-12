@@ -10,9 +10,12 @@ public class MemberMain {
 		for (Member m : list) {
 			System.out.println(m.getMid()+" " + m.getName()+" " + m.getAdr());
 		}
-
-		Member m1 = dao.findByMid(1);
-		System.out.println(m1.getMid()+" "+m1.getName()+" "+m1.getAdr());
+		
+		System.out.println("どの住所を見たいですか？IDを入力してください");
+		int mid =new java.util.Scanner(System.in).nextInt();
+		
+		Member m1 = dao.findByMid(mid);
+		System.out.println(m1.getAdr());
 	}
 
 }
