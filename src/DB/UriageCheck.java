@@ -21,6 +21,5 @@ public class UriageCheck {
 				System.out.println(u.getHi()+" "+u.getKosu()+"個");
 			}
 
-
 	}
 }
